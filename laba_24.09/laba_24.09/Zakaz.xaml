@@ -1,0 +1,30 @@
+﻿<Window x:Class="laba_24._09.Zakaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba_24._09"
+        mc:Ignorable="d"
+        Title="Zakaz" Height="500" Width="600">
+    <Grid>
+        <Label Content="Заказ" HorizontalAlignment="Center" Height="40" Margin="0,26,0,0" VerticalAlignment="Top" Width="76" FontSize="25"/>
+        <Label Content="Код заказа" HorizontalAlignment="Left" Margin="51,136,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Дата создания" HorizontalAlignment="Left" Margin="36,175,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Время заказа" HorizontalAlignment="Left" Margin="40,214,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Статус заказа" HorizontalAlignment="Left" Margin="39,293,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Код клиента" HorizontalAlignment="Left" Margin="45,254,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Услуги" HorizontalAlignment="Left" Margin="67,337,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Время проката" HorizontalAlignment="Left" Margin="34,371,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.596,0.62"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="199,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" FontSize="15"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="34" Margin="519,254,0,0" VerticalAlignment="Top" Width="58" FontSize="20"/>
+        <Button x:Name="add_zakaz" Content="Добавить" HorizontalAlignment="Left" Height="37" Margin="432,421,0,0" VerticalAlignment="Top" Width="116" Click="add_zakaz_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="37" Margin="199,421,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click"/>
+
+    </Grid>
+</Window>
